@@ -2,19 +2,19 @@ export function WaterStation() {
   return (
     <section
       id="water"
-      className="relative overflow-hidden border-t border-line bg-[linear-gradient(160deg,#12202a_0%,#0b1118_45%,#16343a_100%)]"
+      className="relative overflow-hidden border-t border-line bg-[linear-gradient(160deg,#121212_0%,#050505_50%,#1a1814_100%)]"
     >
       <div
-        className="pointer-events-none absolute inset-0 opacity-40"
+        className="pointer-events-none absolute inset-0 opacity-50"
         aria-hidden
         style={{
           backgroundImage:
-            "radial-gradient(circle at 20% 30%, rgba(77,184,199,0.25), transparent 40%), radial-gradient(circle at 80% 70%, rgba(47,143,157,0.2), transparent 45%)",
+            "radial-gradient(circle at 20% 30%, rgba(235,227,212,0.12), transparent 40%), radial-gradient(circle at 80% 70%, rgba(180,200,210,0.08), transparent 45%)",
         }}
       />
       <div className="relative mx-auto max-w-6xl px-6 py-20 sm:px-8 sm:py-24">
         <div className="max-w-2xl">
-          <p className="font-display text-sm font-semibold tracking-[0.22em] text-accent-bright uppercase">
+          <p className="font-display text-sm font-semibold tracking-[0.22em] text-cream uppercase">
             On site
           </p>
           <h2 className="mt-3 font-display text-4xl font-semibold tracking-wide text-foam sm:text-5xl">

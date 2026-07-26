@@ -36,7 +36,7 @@ export function Products() {
     <section id="products" className="border-t border-line bg-slate">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:px-8 sm:py-28">
         <div className="max-w-2xl">
-          <p className="font-display text-sm font-semibold tracking-[0.22em] text-accent-bright uppercase">
+          <p className="font-display text-sm font-semibold tracking-[0.22em] text-cream uppercase">
             What we carry
           </p>
           <h2 className="mt-3 font-display text-4xl font-semibold tracking-wide text-foam sm:text-5xl">

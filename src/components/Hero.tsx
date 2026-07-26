@@ -1,3 +1,4 @@
+import { BrandLogo } from "@/components/BrandLogo";
 import { STORE } from "@/lib/store";
 
 export function Hero() {
@@ -7,13 +8,13 @@ export function Hero() {
       className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden"
     >
       <div className="absolute inset-0 -z-10 bg-ink" aria-hidden>
-        <div className="hero-glow absolute -left-1/4 top-[-20%] h-[70%] w-[80%] rounded-full bg-[radial-gradient(circle,rgba(77,184,199,0.22),transparent_65%)] blur-3xl" />
-        <div className="absolute right-[-10%] bottom-[-15%] h-[55%] w-[55%] rounded-full bg-[radial-gradient(circle,rgba(47,143,157,0.18),transparent_70%)] blur-3xl" />
+        <div className="hero-glow absolute -left-1/4 top-[-20%] h-[70%] w-[80%] rounded-full bg-[radial-gradient(circle,rgba(235,227,212,0.16),transparent_65%)] blur-3xl" />
+        <div className="absolute right-[-10%] bottom-[-15%] h-[55%] w-[55%] rounded-full bg-[radial-gradient(circle,rgba(235,227,212,0.08),transparent_70%)] blur-3xl" />
         <div
-          className="absolute inset-0 opacity-[0.35]"
+          className="absolute inset-0 opacity-[0.3]"
           style={{
             backgroundImage:
-              "linear-gradient(135deg, transparent 40%, rgba(215,226,234,0.06) 50%, transparent 60%), linear-gradient(rgba(215,226,234,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(215,226,234,0.04) 1px, transparent 1px)",
+              "linear-gradient(135deg, transparent 40%, rgba(235,227,212,0.05) 50%, transparent 60%), linear-gradient(rgba(235,227,212,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(235,227,212,0.035) 1px, transparent 1px)",
             backgroundSize: "100% 100%, 48px 48px, 48px 48px",
           }}
         />
@@ -22,13 +23,11 @@ export function Hero() {
       </div>
 
       <div className="mx-auto w-full max-w-6xl px-6 pb-16 pt-28 sm:px-8 sm:pb-20 sm:pt-32">
-        <p className="animate-rise font-display text-5xl leading-[0.92] font-bold tracking-[0.04em] text-foam uppercase sm:text-7xl md:text-8xl lg:text-9xl">
-          Vital Detail
-          <br />
-          Supplies
-        </p>
+        <div className="animate-rise">
+          <BrandLogo size="hero" priority />
+        </div>
 
-        <h1 className="animate-rise-delay-1 mt-8 max-w-xl font-display text-2xl leading-tight font-semibold tracking-wide text-mist sm:text-3xl">
+        <h1 className="animate-rise-delay-1 mt-10 max-w-xl font-display text-2xl leading-tight font-semibold tracking-wide text-cream sm:text-3xl">
           Pro detailing supplies for Alhambra and the San Gabriel Valley
         </h1>
 
@@ -42,13 +41,13 @@ export function Hero() {
             href={STORE.mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center bg-accent-bright px-7 py-3.5 text-sm font-semibold tracking-wide text-ink transition-colors hover:bg-foam"
+            className="inline-flex items-center justify-center bg-cream px-7 py-3.5 text-sm font-semibold tracking-wide text-ink transition-colors hover:bg-accent-bright"
           >
             Get directions
           </a>
           <a
             href={`tel:${STORE.phoneTel}`}
-            className="inline-flex items-center justify-center border border-mist/25 px-7 py-3.5 text-sm font-semibold tracking-wide text-foam transition-colors hover:border-accent-bright hover:text-accent-bright"
+            className="inline-flex items-center justify-center border border-cream/30 px-7 py-3.5 text-sm font-semibold tracking-wide text-cream transition-colors hover:border-cream hover:bg-cream/5"
           >
             Call {STORE.phoneDisplay}
           </a>

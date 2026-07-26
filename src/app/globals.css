@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #0b1118;
-  --slate: #15202b;
-  --steel: #6b7f8f;
-  --mist: #d7e2ea;
-  --paper: #eef3f7;
-  --foam: #f7fafc;
-  --accent: #2f8f9d;
-  --accent-bright: #4db8c7;
-  --accent-deep: #1f6b76;
-  --line: rgba(215, 226, 234, 0.14);
+  --ink: #050505;
+  --slate: #121212;
+  --steel: #8a8276;
+  --mist: #d4cbb8;
+  --paper: #f3eee4;
+  --foam: #ebe3d4;
+  --cream: #ebe3d4;
+  --accent: #ebe3d4;
+  --accent-bright: #f5efe4;
+  --accent-deep: #3d3830;
+  --line: rgba(235, 227, 212, 0.14);
   --background: var(--ink);
   --foreground: var(--foam);
 }
@@ -22,6 +23,7 @@
   --color-mist: var(--mist);
   --color-paper: var(--paper);
   --color-foam: var(--foam);
+  --color-cream: var(--cream);
   --color-accent: var(--accent);
   --color-accent-bright: var(--accent-bright);
   --color-accent-deep: var(--accent-deep);
@@ -47,8 +49,8 @@ body {
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--accent) 45%, transparent);
-  color: var(--foam);
+  background: color-mix(in srgb, var(--cream) 40%, transparent);
+  color: var(--ink);
 }
 
 @keyframes sheen {
@@ -104,7 +106,7 @@ body {
   background: linear-gradient(
     105deg,
     transparent 35%,
-    rgba(255, 255, 255, 0.08) 48%,
+    rgba(235, 227, 212, 0.1) 48%,
     transparent 62%
   );
   animation: sheen 7.5s ease-in-out infinite;
