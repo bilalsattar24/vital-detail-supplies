@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden"
+      className="relative isolate flex min-h-[100svh] flex-col justify-center overflow-hidden"
     >
       <div className="absolute inset-0 -z-10 bg-ink" aria-hidden>
         <div className="hero-glow absolute -left-1/4 top-[-20%] h-[70%] w-[80%] rounded-full bg-[radial-gradient(circle,rgba(235,227,212,0.16),transparent_65%)] blur-3xl" />
@@ -19,15 +19,15 @@ export function Hero() {
           }}
         />
         <div className="hero-sheen absolute inset-0 overflow-hidden" />
-        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-ink via-ink/80 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-ink via-ink/70 to-transparent" />
       </div>
 
-      <div className="mx-auto w-full max-w-6xl px-6 pb-16 pt-28 sm:px-8 sm:pb-20 sm:pt-32">
+      <div className="mx-auto w-full max-w-6xl px-6 pt-24 pb-16 sm:px-8 sm:pt-28 sm:pb-20">
         <div className="animate-rise">
           <BrandLogo size="hero" priority />
         </div>
 
-        <h1 className="animate-rise-delay-1 mt-10 max-w-xl font-display text-2xl leading-tight font-semibold tracking-wide text-cream sm:text-3xl">
+        <h1 className="animate-rise-delay-1 mt-8 max-w-xl font-display text-2xl leading-tight font-semibold tracking-wide text-cream sm:mt-10 sm:text-3xl">
           Pro detailing supplies for Alhambra and the San Gabriel Valley
         </h1>
 
@@ -36,7 +36,7 @@ export function Hero() {
           enthusiasts—with guidance from people who know the craft.
         </p>
 
-        <div className="animate-rise-delay-3 mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <div className="animate-rise-delay-3 mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:items-center">
           <a
             href={STORE.mapsUrl}
             target="_blank"
