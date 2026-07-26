@@ -21,4 +21,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - **Address:** 2219 W Valley Blvd, Alhambra, CA 91803
 - **Phone:** (626) 656-6226
-- **Hours:** Mon–Fri 8am–6pm · Sat 8am–4pm · Sun closed
+- **Hours:** Mon–Fri 8am–5pm · Sat 8am–4pm · Sun closed

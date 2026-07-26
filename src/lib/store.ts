@@ -7,7 +7,7 @@ export const STORE = {
   mapsUrl:
     "https://www.google.com/maps/search/?api=1&query=2219+W+Valley+Blvd,+Alhambra,+CA+91803",
   hours: [
-    { day: "Monday – Friday", time: "8:00 AM – 6:00 PM" },
+    { day: "Monday – Friday", time: "8:00 AM – 5:00 PM" },
     { day: "Saturday", time: "8:00 AM – 4:00 PM" },
     { day: "Sunday", time: "Closed" },
   ],
