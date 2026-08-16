@@ -11,7 +11,7 @@ export function SiteFooter() {
             {STORE.name}
           </p>
           <p className="mt-1 text-sm text-steel">
-            Auto detailing supplies · Alhambra, CA
+            Auto detailing supplies · Rosemead, CA
           </p>
         </div>
         <p className="text-sm text-steel">

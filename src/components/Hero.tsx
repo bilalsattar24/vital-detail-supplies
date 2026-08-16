@@ -28,7 +28,7 @@ export function Hero() {
         </div>
 
         <h1 className="animate-rise-delay-1 mt-8 max-w-xl font-display text-2xl leading-tight font-semibold tracking-wide text-cream sm:mt-10 sm:text-3xl">
-          Pro detailing supplies for Alhambra and the San Gabriel Valley
+          Pro detailing supplies for Rosemead and the San Gabriel Valley
         </h1>
 
         <p className="animate-rise-delay-2 mt-4 max-w-lg text-base leading-relaxed text-steel sm:text-lg">

@@ -33,7 +33,7 @@ export function About() {
             </p>
             <p className="mt-2 text-sm leading-relaxed text-steel sm:text-base">
               Skip the wait for shipping. Walk out with supplies the same day
-              from our Alhambra shop on West Valley Blvd.
+              from our Rosemead shop on Garvey Ave.
             </p>
           </div>
         </div>

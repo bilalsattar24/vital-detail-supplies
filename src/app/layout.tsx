@@ -15,13 +15,13 @@ const barlow = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Vital Detail Supplies | Auto Detailing Supplies in Alhambra, CA",
+  title: "Vital Detail Supplies | Auto Detailing Supplies in Rosemead, CA",
   description:
-    "Premium auto detailing supplies for professionals and enthusiasts in Alhambra. Soaps, sealants, ceramic coatings, tools, and a 24/7 spot-free water station. Full online store coming soon.",
+    "Premium auto detailing supplies for professionals and enthusiasts in Rosemead. Soaps, sealants, ceramic coatings, tools, and a 24/7 spot-free water station. Full online store coming soon.",
   keywords: [
     "auto detailing supplies",
     "car detailing products",
-    "Alhambra",
+    "Rosemead",
     "ceramic coating",
     "spot-free water",
     "Vital Detail Supplies",

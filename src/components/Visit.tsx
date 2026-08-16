@@ -9,11 +9,11 @@ export function Visit() {
             Visit the store
           </p>
           <h2 className="mt-3 font-display text-4xl font-semibold tracking-wide text-ink sm:text-5xl">
-            Come see us in Alhambra
+            Come see us in Rosemead
           </h2>
           <p className="mt-4 text-base leading-relaxed text-slate/80 sm:text-lg">
             Stop by for supplies, product recommendations, and the spot-free
-            rinse—right on West Valley Blvd.
+            rinse—right on Garvey Ave.
           </p>
         </div>
 

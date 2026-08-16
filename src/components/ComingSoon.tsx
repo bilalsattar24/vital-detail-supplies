@@ -13,7 +13,7 @@ export function ComingSoon() {
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-steel sm:text-base">
             We are building a complete Shopify shop so you can browse and order
-            online. Until then, visit us in Alhambra or give us a call.
+            online. Until then, visit us in Rosemead or give us a call.
           </p>
         </div>
         <a
